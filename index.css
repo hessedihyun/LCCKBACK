@@ -1,0 +1,10 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+#gridForm{
+    width: 50%; height: 80%; margin: auto;
+    background-color: pink;
+    display: grid;
+    grid-template: repeat(8,1fr) / repeat(2,1fr);
+}
